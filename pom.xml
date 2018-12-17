@@ -64,8 +64,10 @@
 				</executions>
 			</plugin>
 		</plugins>
-	</build>
-	  <distributionManagement>
+	</build> 
+	
+	
+	<distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
@@ -77,7 +79,9 @@
 		<name>Internal Releases</name>
 		<url>http://35.243.229.181:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
-		  </distributionManagement>
+	
+	  
+</distributionManagement>
 
 
 </project>
